@@ -98,7 +98,7 @@ running either `vagrant destroy` or `vagrant halt` would stop tinyproxy.
 
 Triggers can also be defined to run Ruby, rather than bash or powershell. An
 example of this might be using a Ruby option to get more information from the `VBoxManage`
-tool. In this case, we are printing the `ostype` defined for thte  guest after
+tool. In this case, we are printing the `ostype` defined for the  guest after
 it has been brought up.
 
 ```ruby
